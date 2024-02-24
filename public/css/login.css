@@ -1,0 +1,97 @@
+body{
+    background-image: url("../img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.corps{
+    padding: 10px 0;
+    max-width: 600px;
+}
+.login{
+    border: 2px solid #fcde7b;
+    background: #fff;
+}
+.oublie{
+    border-top: 1px solid #fcde7b;
+    padding: 10px;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid;
+    transition: 0.7s;
+}
+.login-username, .login-pwd{
+    border: 1px solid #fcde7b;
+} 
+.logo-login{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+}
+h3{
+    margin: 10px 0;
+}
+.btn-login{
+    border: none;
+    margin: 8px 0;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+    background: #ebcd6e;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn-login:hover{
+    background: #fcde7b;
+    transition: 0.8s;
+}
+.erreur{
+    background-color: rgb(212, 118, 118);
+    color: #b40a0a;
+    padding: 15px 5px;
+    border: 1px solid #b40a0a;
+    margin: 17px 0;
+    width: 96%;
+    margin: auto;
+    display: none;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+}
+.erreur span i{
+    margin: 0 15px;
+    color: #b40a0a;
+}
+#fermer{
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    margin: 3px;
+    position: absolute;
+    color: #ac0707;
+    font-size: 13px;
+    padding: 5px;
+}
+#fermer:hover{
+    color: #ff0101;
+    transition: 0.7s;
+}
+.group-pass{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+i{
+    cursor: pointer;
+    color: #000;
+}
